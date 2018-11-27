@@ -1,27 +1,20 @@
-# Assignment1WarningSuccess
+# Check Human or Not
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+Verify if the visitor is human or not
 
-## Development server
+## How this works
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If visitor enters the code on the page --> He is a Human
+If visitor enters the wrong code --> He is a Robot :))
 
-## Code scaffolding
+# Why this project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project is an enhancement to an assignment I made while learning Angular from Udemy.
 
-## Build
+# What I learned
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Importance of 'this' keyword inside Typescript file
+2. Practised templateUrl, template, styles, stylesUrl, `` (template expression)
+3. *ngIf
+4. (click) instead of onclick
+5. And more
