@@ -4,10 +4,16 @@
       <h1>Home Page</h1>
 
       <h3>Verify that you are Human</h3>
-      <input type="text" placeholder="Enter the code here">
+      <input type="text" placeholder="Enter the code here" [(ngModel)]="userInput">
       <p id="result">Code: {{answer}}</p>
+      <button (click)="checkCode()">Check</button>
 
-      <app-message [code]="answer"></app-message>
+      <div *ngIf="final">
+        <app-success></app-success>
+      </div>
+      <div>
+        <app-warning *ngIf="!final && flag"></app-warning>
+      </div>
     </div>
   </div>
 </div>
