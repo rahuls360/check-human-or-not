@@ -5,6 +5,7 @@ Verify if the visitor is human or not
 ## How this works
 
 If visitor enters the code on the page --> He is a Human
+
 If visitor enters the wrong code --> He is a Robot :))
 
 # Why this project
